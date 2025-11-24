@@ -71,32 +71,52 @@ o	Expected Result: The older student (earlier DOB) should have a better (lower) 
 o	In the Counselling module (4_seat_allotment.py), try to choose "CSE" (Computer Science) if your rank is very high (e.g., 5000) and the cutoff is 1000.
 o	Expected Result: The system should print "Not Eligible (Rank > Cutoff)" and check your next preference.
 
-System Architecture Diagram
-<img width="1187" height="648" alt="System Architecture Diagram" src="https://github.com/user-attachments/assets/95df27b8-f497-43a1-b722-7c51a354d9d4" />
-Process Flow or Workflow Diagram
-![Process Flow or Workflow Diagram](https://github.com/user-attachments/assets/4619f408-6764-47e8-a611-4e4f63b234d7)
-UML Diagrams
-<img width="1202" height="656" alt="UML Diagrams" src="https://github.com/user-attachments/assets/6b3c3d6a-76ec-48d0-a93c-be13e4e9efe3" />
-![Component Diagram](https://github.com/user-attachments/assets/4cdd25c7-68fb-449b-be7b-879020a06ad9)
-<img width="1172" height="639" alt="Class Diagram" src="https://github.com/user-attachments/assets/f449a89c-c570-4b64-ba58-3a86cae33664" />
-![Sequence Diagram](https://github.com/user-attachments/assets/2e946fa6-f46a-4010-a00b-e0bc842b5fe1)
-ER Diagram
-<img width="1618" height="883" alt="ER Diagram" src="https://github.com/user-attachments/assets/618ebd66-5e7e-427f-bff9-f556ab20245e" />
-Schema Design
-<img width="1599" height="872" alt="Schema Design" src="https://github.com/user-attachments/assets/e942222f-6926-49af-9ffe-7743e031b374" />
+## 🏗️ System Architecture & Design
 
-Outputs
-<img width="1831" height="1470" alt="1_output" src="https://github.com/user-attachments/assets/ab76a800-bd50-412d-a1b1-7843c5eae280" />
-<img width="1852" height="547" alt="2_output" src="https://github.com/user-attachments/assets/9a088daa-14b6-4a33-b85e-d28b602aa1b6" />
-<img width="1762" height="651" alt="3_output" src="https://github.com/user-attachments/assets/c79e407d-1f9a-4f01-acbc-4412a54a1500" />
-<img width="1764" height="1422" alt="4_output" src="https://github.com/user-attachments/assets/53841af4-867e-49d4-9835-5762fc46ea9c" />
+### System Architecture
+![System Architecture](System%20Architecture%20Diagram.png)
 
-Printed Text
-<img width="975" height="453" alt="recipt" src="https://github.com/user-attachments/assets/448b15f9-70e9-421f-92a7-e31ba75e4c46" />
-<img width="1023" height="799" alt="hall_ticket" src="https://github.com/user-attachments/assets/9b75763c-5ced-4008-8f7f-2ed22c99a16e" />
-<img width="1017" height="691" alt="scorecard" src="https://github.com/user-attachments/assets/ebde74f7-bf76-4265-b0f2-c9367f73d18a" />
-<img width="983" height="990" alt="allotment letter" src="https://github.com/user-attachments/assets/f7aeb216-f37c-41f8-9998-1df5e4aa0b6c" />
+### Database Design
+| ER Diagram | Schema Design |
+| :---: | :---: |
+| ![ER Diagram](ER%20Diagram.png) | ![Schema Design](Schema%20Design.png) |
 
+### Process Flow
+![Process Flow](Process%20Flow%20or%20Workflow%20Diagram.jpeg)
+
+### Sequence & Component Diagrams
+| Sequence Diagram | Component Diagram |
+| :---: | :---: |
+| ![Sequence Diagram](Sequence%20Diagram.jpeg) | ![Component Diagram](Component%20Diagram.jpeg) |
+
+### Class Diagram
+![Class Diagram](Class%20Diagram.png)
+
+## 📸 Project Outputs
+
+### 1. Registration
+![Registration Output](1_output.png)
+
+### 2. Exam Logistics
+![Exam Output](2_output.png)
+
+### 3. Rank Generation
+![Rank Output](3_output.png)
+
+### 4. Counseling & Allotment
+![Counseling Output](4_output.png)
+
+---
+
+## 📄 Generated Documents
+
+| Hall Ticket | Allotment Letter |
+| :---: | :---: |
+| ![Hall Ticket](hall_ticket.png) | ![Allotment Letter](allotment%20letter.png) |
+
+| Scorecard | Receipt |
+| :---: | :---: |
+| ![Scorecard](scorecard.png) | ![Receipt](recipt.png) |
 
 
 Project Structure
@@ -114,5 +134,6 @@ Plaintext
 └── README.md                 # Project Documentation
  License
 This project is open-source and available under the MIT License.
+
 
 
