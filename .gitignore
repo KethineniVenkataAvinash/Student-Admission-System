@@ -1,0 +1,10 @@
+# Ignore the database so users start fresh
+data_store.csv
+*.txt
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
